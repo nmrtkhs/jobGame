@@ -1,0 +1,14 @@
+{
+  "global": {
+    "parseVersion": "1.4.2"
+  },
+  "applications": {
+    "_default": {
+      "link": "job"
+    },
+    "job": {
+      "applicationId": "elQDlx0EastmizMuxWRfn5EMy5583lMuB5BifhsM",
+      "masterKey": "q0eC55FFoXJL0pSpY2z5apOlVc4Q3Qo11aJXStEf"
+    }
+  }
+}
