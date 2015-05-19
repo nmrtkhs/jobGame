@@ -42,10 +42,8 @@ class: center middle
 ---
 # 実現方法
 * しごとナビ(有力候補)
- * 7e10c3a89d87cc92e20bd2b537ccccd2
   * [APIサンプル](http://www.shigotonavi.co.jp/api/search/?key=7e10c3a89d87cc92e20bd2b537ccccd2&spc=001)
 * ふろむAナビ
- * qye2q8100hy1298a75ehsf37pp6lrh32
 * ハローワークはちょいむず(rest)
 
 ---
