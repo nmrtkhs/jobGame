@@ -4,7 +4,6 @@ class: center middle
 ---
 class: center
 # 目的
-class: center left
 * ゲームを通じて地方で働くのもいいかもと思ってもらう
 
 ---
@@ -18,7 +17,6 @@ class: center left
 ---
 class: center
 # プロセス
-class: center left
 * 地方の生活費が安いと知ってもらう
 * 地方がどのような職種を求めてるか知ってもらう
 * 東京に比べてどのような差がでてくるか知ってもらう(ただ、これは必ずしも地方の方がいいのかは未検証)
@@ -26,8 +24,6 @@ class: center left
 ---
 class: center
 # ルール
-class: center left
-* サイコロを振る
 * そこで県に止まる
 * その県で求人情報を見て職業を選択する(サイコロで決めても面白いかも)
 * 人生ゲームのように子ども、家をたてるかどうか、給料などのイベントのマスを用意する。
@@ -41,8 +37,6 @@ class: center left
 ---
 class: center
 # タイトル候補
-class: center left
-* しごろく
 * ジョブ六
 * 仕事六
 * 移住ボード
@@ -54,8 +48,6 @@ class: center left
 ---
 class: center
 # 実現方法
-class: center left
-* parse?
 * しごとナビ(有力候補)
  * 7e10c3a89d87cc92e20bd2b537ccccd2
   * [APIサンプル](http://www.shigotonavi.co.jp/api/search/?key=7e10c3a89d87cc92e20bd2b537ccccd2&spc=001)
@@ -66,12 +58,9 @@ class: center left
 ---
 class: center
 # プロト
-class: center left
-* [app](http://ohmijob.parseapp.com/)
 
 ---
 class: center
 # 参考
-class: center left
 * [API一覧](http://www.find-job.net/startup/api-2013)
 * [家賃相場](http://www.pbn.jp/yachin/date/2012/01/) から+-一万
