@@ -1,0 +1,77 @@
+class: center middle
+# 求人情報を使った人生ゲーム
+
+---
+class: center
+# 目的
+class: center left
+* ゲームを通じて地方で働くのもいいかもと思ってもらう
+
+---
+class: center
+# 対象
+class: center left
+* 人生ゲーム等のボードゲームが好きな人達。
+  *  大学生や高校生、その他求職者(ここらはゲームしなくても自分で地方の事について調べるかも)
+    * とはいえこのゲームが他の情報より見やすくなれば上記のパイもとれる
+
+---
+class: center
+# プロセス
+class: center left
+* 地方の生活費が安いと知ってもらう
+* 地方がどのような職種を求めてるか知ってもらう
+* 東京に比べてどのような差がでてくるか知ってもらう(ただ、これは必ずしも地方の方がいいのかは未検証)
+
+---
+class: center
+# ルール
+class: center left
+* サイコロを振る
+* そこで県に止まる
+* その県で求人情報を見て職業を選択する(サイコロで決めても面白いかも)
+* 人生ゲームのように子ども、家をたてるかどうか、給料などのイベントのマスを用意する。
+ * 1回サイコロふるたびに一ヶ月がすぎてそれで給料や家賃の差分で所持金増減させる
+  * 家賃は県の平均家賃で決定させる
+* 10ターンくらいそれを行ってどれだけお金が稼げるかをシミュレーション、
+* 最終的にお金がある人が勝ち
+* だがエンディングでお金だけじゃない事をホロっと匂わすような事を言ったりする。
+* どの県でお金持ちになれたかをランキングにするとどこに住んでる人、どこに就職した人がお金持ちになれるかわかるようになる。
+
+---
+class: center
+# タイトル候補
+class: center left
+* しごろく
+* ジョブ六
+* 仕事六
+* 移住ボード
+* Noa's work
+* ワークボード
+* ハロージョブ
+* 人生ゲーム(辛)
+
+---
+class: center
+# 実現方法
+class: center left
+* parse?
+* しごとナビ(有力候補)
+ * 7e10c3a89d87cc92e20bd2b537ccccd2
+  * [APIサンプル](http://www.shigotonavi.co.jp/api/search/?key=7e10c3a89d87cc92e20bd2b537ccccd2&spc=001)
+* ふろむAナビ
+ * qye2q8100hy1298a75ehsf37pp6lrh32
+* ハローワークはちょいむず(rest)
+
+---
+class: center
+# プロト
+class: center left
+* [app](http://ohmijob.parseapp.com/)
+
+---
+class: center
+# 参考
+class: center left
+* [API一覧](http://www.find-job.net/startup/api-2013)
+* [家賃相場](http://www.pbn.jp/yachin/date/2012/01/) から+-一万

@@ -1,0 +1,30 @@
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Job Game</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+  </head>
+  <body>
+    <table>
+    <div id="map"></div>
+    <div id="status">
+      <table border="1">
+        <tr><td>名前</td><td id="name"></td></tr>
+        <tr><td>地域</td><td id="area"></td></tr>
+        <tr><td>家賃</td><td id="rent"></td></tr>
+        <tr><td>会社</td><td id="company"></td></tr>
+        <!-- <tr><td>職業</td><td id="job"></td></tr> -->
+        <tr><td>月収</td><td id="salary">0円</td></tr>
+        <tr><td>時間</td><td id="time">2015年5月</td></tr>
+        <tr><td>所持金</td><td id="money">0円</td></tr>
+      </table>
+      <p><input id="button" type="button" value="名前決定"></p>
+    </div>
+    <script src="js/lib/jquery-1.11.3.min.js"></script>
+    <script src="js/lib/jquery.japan-map.js"></script>
+    <script src="js/lib/jquery.xdomainajax.js"></script>
+    <script src="js/app/areaInfo.js"></script>
+    <script src="js/app/app.js"></script>
+  </body>
+</html>
