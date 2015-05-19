@@ -1,21 +1,30 @@
 
 <html>
   <head>
-    <title>My ParseApp site</title>
-    <style>
-    body { font-family: Helvetica, Arial, sans-serif; }
-    div { width: 800px; height: 400px; margin: 40px auto; padding: 20px; border: 2px solid #5298fc; }
-    h1 { font-size: 30px; margin: 0; }
-    p { margin: 40px 0; }
-    em { font-family: monospace; }
-    a { color: #5298fc; text-decoration: none; }
-    </style>
+    <meta charset="utf-8">
+    <title>Job Game</title>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
   </head>
   <body>
-    <div>
-      <h1>Congratulations! You're already hosting with Parse.</h1>
-      <p>To get started, edit this file at <em>public/index.html</em> and start adding static content.</p>
-      <p>If you want something a bit more dynamic, delete this file and check out <a href="https://parse.com/docs/hosting_guide#webapp">our hosting docs</a>.</p>
+    <table>
+    <div id="map"></div>
+    <div id="status">
+      <table border="1">
+        <tr><td>名前</td><td id="name"></td></tr>
+        <tr><td>地域</td><td id="area"></td></tr>
+        <tr><td>家賃</td><td id="rent"></td></tr>
+        <tr><td>会社</td><td id="company"></td></tr>
+        <!-- <tr><td>職業</td><td id="job"></td></tr> -->
+        <tr><td>月収</td><td id="salary">0円</td></tr>
+        <tr><td>時間</td><td id="time">2015年5月</td></tr>
+        <tr><td>所持金</td><td id="money">0円</td></tr>
+      </table>
+      <p><input id="button" type="button" value="名前決定"></p>
     </div>
+    <script src="js/lib/jquery-1.11.3.min.js"></script>
+    <script src="js/lib/jquery.japan-map.js"></script>
+    <script src="js/lib/jquery.xdomainajax.js"></script>
+    <script src="js/app/areaInfo.js"></script>
+    <script src="js/app/app.js"></script>
   </body>
 </html>
